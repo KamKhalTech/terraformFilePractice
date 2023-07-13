@@ -1,27 +1,27 @@
 # AWS Region
-variable "aws_region" {
+/* variable "aws_region" {
   description = "Region in which AWS Resources to be created"
   type = string
   default = "us-east-1"  
-}
+} */
 
 # AWS EC2 Instance Type
-variable "instance_type" {
+/* variable "instance_type" {
   description = "EC2 Instance Type"
   type = string
   default = "t3.micro"  
-}
+} */
 
 # AWS EC2 Instance Key Pair
-variable "instance_keypair" {
+/* variable "instance_keypair" {
   description = "AWS EC2 Key pair that need to be associated with EC2 Instance"
   type = string
   default = "terraform-key"
-}
+} */
 
 # versions.tf
-region  = var.aws_region
+/* region  = var.aws_region
 
 # ec2instance.tf
 instance_type = var.instance_type
-key_name = var.instance_keypair 
+key_name = var.instance_keypair */
